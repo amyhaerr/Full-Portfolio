@@ -21,14 +21,14 @@
 }
 /*Header*/
 #Header {
-    background: url('../images/header.jpg') no-repeat center center fixed;
+    background: url('../images/nasa.jpg') no-repeat center center fixed;
     background-size: 100% 100%;
     height: 500px;
     position: relative;
     overflow: hidden;
 }
 #Header .section_overlay {
-    background: #e75e43;
+    background: #22940C;
     opacity: 0.85;
     width: 100%;
     position: absolute;
@@ -82,8 +82,8 @@
     font-size: 18px;
     font-weight: bold;
     font-family: 'Abel';
-    color: #000;
-    color: rgba(0,0,0,0.7);
+    color: rgb(27, 238, 27);
+    color: rgba(9, 184, 38, 0.7);
     text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
     -moz-text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
     -webkit-text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
@@ -234,7 +234,7 @@
 #About .row .profileBlock h4 {
     font-size: 24px;
     font-family: 'Js-Flat';
-    color: #e76d55;
+    color: #22940C;
     padding: 12px 0px 0px 0px;
     display: block;
     overflow: hidden;
@@ -360,10 +360,10 @@
     -ms-transition: all 0.2s ease-in-out;
 }
 #About .row .flickrSlider a.likes:hover span {
-    color: #e56046;
+    color: #22940C;
 }
 #About .row .flickrSlider a.likes.active span {
-    color: #e56046;
+    color: #22940C;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -451,7 +451,7 @@
     height: 170px;
 }
 #About .row .aboutMe p {
-    padding: 10px;
+    padding: 10px; 
     line-height: 26px;
     font-size: 16px;
     font-family: 'Abel';
@@ -504,7 +504,7 @@
     -o-box-shadow: 0px 2px 3px #ccc;
     -ms-box-shadow: 0px 2px 3px #ccc;
     border-radius: 3px;
-    color: #ff7f66;
+    color: #22940C;
     font-size: 35px;
     font-family: 'Abel';
     font-weight:  bold;
@@ -513,7 +513,7 @@
     padding: 15px 0px;
 }
 #Portfolio h2 a.next {
-    background: #ff7f66;
+    background: #22940C;
     border-radius: 3px;
     float: right;
     width: 30px;
@@ -533,10 +533,10 @@
 }
 #Portfolio h2 a.next:hover {
     background: #333;
-    color: #ff7f66;
+    color: #22940C;
 }
 #Portfolio h2 a.prev {
-    background: #ff7f66;
+    background: #22940C;
     border-radius: 3px;
     float: left;
     width: 30px;
@@ -556,7 +556,7 @@
 }
 #Portfolio h2 a.prev:hover {
     background: #333;
-    color: #ff7f66;
+    color: #22940C;
 }
 #Portfolio .Slider div.work {
     padding: 25px 12.5px;
@@ -623,10 +623,10 @@
     height: 16px;
 }
 #Portfolio .owl-pagination .owl-page.active {
-    border: 1px solid #ff7f66;
+    border: 1px solid #22940C;
 }
 #Portfolio .owl-pagination .owl-page.active span {
-    background: #ff7f66;
+    background: #22940C;
 }
 /* Activity */
 #Activity {
@@ -638,7 +638,7 @@
     overflow: hidden;
 }
 #Activity .section_overlay {
-    background: #e75e43;
+    background: #22940C;
     opacity: 0.85;
     width: 100%;
     position: absolute;
@@ -705,7 +705,7 @@
     line-height: 140px;
     color: #fff !important;
     background: rgba(0,0,0,0.6);
-    color: rgba(255,127,102,1);
+    color: #22940C;
 }
 #Activity .post h3 {
     border-bottom: 1px solid #ddd;
@@ -731,7 +731,7 @@
     -ms-transition: all 0.2s ease-in-out;
 }
 #Activity .post h3 a:hover {
-    color: #f36b51;
+    color: #22940C;
 }
 #Activity .post p {
     background: #eee;
@@ -766,7 +766,7 @@
     color: #333;
 }
 /* Clients */
-#Clients {
+/* #Clients {
     background: #fff;
     background-size: 100% 100%;
     min-height: 250px;
@@ -833,7 +833,7 @@
 }
 #Clients .owl-pagination .owl-page.active span {
     background: #ff7f66;
-}
+} */
 /* ContactUS */
 #ContactUS {
     background: #333 url(../images/contact.jpg) repeat-y center center fixed;
@@ -880,7 +880,7 @@
 }
 #ContactUS .contactItem:hover i {
     background: #fff;
-    color: #ff7f66;
+    color: #22940C;
     -moz-transform: scale(1.25,1.25);
 }
 #ContactUS form .row {
@@ -897,7 +897,7 @@
     color: #000;
 }
 #ContactUS form .row .col-md-4 input.form-control:focus, #ContactUS form .row .col-md-12 textarea.form-control:focus {
-    box-shadow: 0px 0px 5px #f26043;
+    box-shadow: 0px 0px 5px #22940C;
     border: none;
 }
 #ContactUS form .row .col-md-12 .btn {
@@ -955,7 +955,7 @@
     line-height: 26px !important;
 }
 #ContactUS form div.error_message {
-    background: #f14e62;
+    background: blue;
     border-radius: 3px;
     display: inline-block;
     height: 50px;
@@ -975,7 +975,7 @@
 }
 /* fellowUs */
 .fellowUs {
-    background: #ff7f66;
+    background: #22940C;
     overflow: hidden;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
