@@ -628,6 +628,9 @@
 #Portfolio .owl-pagination .owl-page.active span {
     background: #22940C;
 }
+#port_link {
+    color:black;
+}
 /* Activity */
 #Activity {
     background: #333 url(../images/activity.jpg) repeat-y center center fixed;
