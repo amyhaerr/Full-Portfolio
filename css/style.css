@@ -739,7 +739,7 @@
 
 /* ContactUS */
 #ContactUS {
-    background: #333 url(../images/earth.jpg) repeat-y center center fixed;
+    background: #333 url(../images/nasa.jpg) repeat-y center center fixed;
     background-size: 100% 100%;
     min-height: 400px;
 }
@@ -877,7 +877,7 @@
     line-height: 26px !important;
 }
 /* fellowUs */
-.fellowUs {
+/* .fellowUs {
     background: #22940C;
     overflow: hidden;
     padding: 0px 0px 0px 0px;
@@ -922,4 +922,4 @@
     -webkit-transform: scale(1.2,1.2);
     -o-transform: scale(1.2,1.2);
     -ms-transform: scale(1.2,1.2);
-}
+} */
